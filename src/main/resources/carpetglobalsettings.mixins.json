@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "bluesea.carpetglobalsettings.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "server": [
+        "SettingsManagerMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

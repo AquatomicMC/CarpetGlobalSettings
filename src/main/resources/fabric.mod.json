@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "carpet_global_settings",
+    "version": "${version}",
+    "name": "Carpet Global Settings",
+    "description": "",
+    "authors": [],
+    "contact": {},
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "icon": "assets/carpetglobalsettings/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            {
+                "value": "bluesea.carpetglobalsettings.CarpetGlobalSettings"
+            }
+        ]
+    },
+    "mixins": [
+        "carpetglobalsettings.mixins.json"
+    ],
+    "depends": {
+        "carpet": "*",
+        "fabricloader": ">=0.16.0",
+        "minecraft": ">=1.21"
+    }
+}
